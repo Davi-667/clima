@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styleTemperatura.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor" class="container border border-dark">
+        <div class="cardsForms">
+            <div id="cardCantidadDias" class="card">
+                <div class="card-header">Cantidad de Dias</div>
+                <div class="card-body">
+                    <form id="formCantidadDias">
+                        <input id="cantidadDias" placeholder="Número de Dias" type="number">
+                        <input class="boton" type="submit">
+                    </form>
+                </div>
+            </div>
+            <div id="cardDias" class="card">
+                <div class="card-header">Confirme cantidad de dias a analizar</div>
+                <div class="card-body">
+                    <form id="formDias" action="">
+                        <input id="diastotales" placeholder="Confirmación de la cantidad de dias" type="number">
+                        <input class="boton" type="submit">
+                    </form>
+                </div>
+            </div>
+            <div id="cardValores"class="card">
+                <div class="card-header">Valores Diarios</div>
+                <div class="card-body">
+                    <form id="formValores" >
+                        <div id="inputsTemperatura"></div>
+                        <input class="boton" type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="cardDatos" class="card">
+        <div class="card-header">
+            <h5>Datos de la Encuesta</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div id="promedio" class="col"></div>
+            </div>
+            <div class="row">
+                <div id="porcentajeDiezDias" class="col"></div>
+            </div>
+            <div class="row">
+                <div id="mayortemp" class="col"></div>
+            </div>
+            <div class="row">
+                <div id="ordenFamiliaMayorEdad" class="col"></div>
+            </div>
+        </div>
+    </div>
+    <div id="divTabla">    
+        <div id="cardTabla" class="card">
+            <div class="card-header"><h5>Familias</h5></div>
+            <div id="tableContainer" class="card-body">
+                <table class="table">
+                    <thead id="tableHead">
+                    </thead>
+                    <tbody id="tableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./appTemp.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

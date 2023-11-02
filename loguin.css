@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(4, 114, 114);
+}
+#containerL{
+    margin-top: 50px;
+    padding: 20px;
+    background-image: url("imagen/clima.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-size-adjust: 50px;
+}
+.titulo{
+    text-align: center;
+    background-color: rgb(127, 215, 186, 45%);
+    margin: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#form-login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 20px 100px 50px 100px;
+    border: solid 2px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    background-color: rgb(232, 212, 251)
+}
+label{
+    font-weight: 600;
+}
+input{
+    text-align: center;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(229, 156, 242);
+}
+input:hover{
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(245, 148, 11);
+}
+.boton:hover{
+    color:aliceblue;
+    background-color: rgb(45, 45, 45);
+}

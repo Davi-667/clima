@@ -1,0 +1,36 @@
+body{
+    background-image: url("imagen/fondo2.jpg");
+    background-attachment: fixed;
+
+}
+#contenedor{
+    margin-top: 50px;
+    margin-top: 50px;
+    padding: 80px;
+    background-color: rgb(127, 215, 186, 70%);
+}
+#cardCantidadDias{
+    background-color: rgba(167, 127, 215, 50%);
+}
+.card-header{
+    font-weight: 600;
+    background-color: rgb(245, 196, 206);
+}
+#cardDias{
+    background-color: rgba(14, 197, 72, 0.5)
+}
+input{
+    text-align: center;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(229, 156, 242);
+}
+input:hover{
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(245, 148, 11);
+}
+.boton:hover{
+    color:aliceblue;
+    background-color: rgb(45, 45, 45);
+}
